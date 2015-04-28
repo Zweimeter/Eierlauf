@@ -420,12 +420,14 @@ float distanceBetweenPoints(CGPoint first, CGPoint second){
     self.enemyBubble.bubble.physicsBody = nil;
     
     [self.enemyBubble removeAllActions];
+    [self.enemyBubble.bubble removeAllActions];
     [self.enemyBubble.maskSection removeAllActions];
     
     [self.enemyBubble removeAllChildren];
     [self.enemyBubble removeFromParent];
     [self.enemyBubble.maskSection removeFromParent];
     
+    self.enemyBubble.bubble = nil;
     self.enemyBubble = nil;
     
     self.enemyBubble = [EnemyBubble new];
