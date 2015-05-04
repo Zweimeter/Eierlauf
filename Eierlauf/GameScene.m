@@ -405,6 +405,9 @@ float distanceBetweenPoints(CGPoint first, CGPoint second){
 //        self.hasContact = NO;
 //    }
     
+    
+// TEST TEST
+
     if (self.hasContact) {
 //        self.blackHole.color = [SKColor redColor];
         self.babbels.texture = [SKTexture textureWithImageNamed:@"babbelsPressed374.png"];
