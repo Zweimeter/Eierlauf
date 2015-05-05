@@ -32,7 +32,7 @@ float distanceBetweenPoints(CGPoint first, CGPoint second){
     
     self.physicsWorld.contactDelegate = self;
     
-    self.motionManager = [CMMotionManager new];
+    self.motionManager = [CMMotionManager new]; // Nice motion manager
     [self.motionManager startAccelerometerUpdates];
     
     self.locationManager = [CLLocationManager new];
